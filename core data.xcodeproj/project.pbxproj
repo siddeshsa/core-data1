@@ -10,7 +10,7 @@
 		045763212446EDED0005FF0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045763202446EDED0005FF0E /* AppDelegate.swift */; };
 		045763232446EDED0005FF0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045763222446EDED0005FF0E /* ViewController.swift */; };
 		045763262446EDED0005FF0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045763242446EDED0005FF0E /* Main.storyboard */; };
-		045763292446EDED0005FF0E /* core_data.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045763272446EDED0005FF0E /* core_data.xcdatamodeld */; };
+		045763292446EDED0005FF0E /* Todo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 045763272446EDED0005FF0E /* Todo.xcdatamodeld */; };
 		0457632B2446EDEF0005FF0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0457632A2446EDEF0005FF0E /* Assets.xcassets */; };
 		0457632E2446EDEF0005FF0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0457632C2446EDEF0005FF0E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -62,7 +62,7 @@
 				0457632A2446EDEF0005FF0E /* Assets.xcassets */,
 				0457632C2446EDEF0005FF0E /* LaunchScreen.storyboard */,
 				0457632F2446EDEF0005FF0E /* Info.plist */,
-				045763272446EDED0005FF0E /* core_data.xcdatamodeld */,
+				045763272446EDED0005FF0E /* Todo.xcdatamodeld */,
 			);
 			path = "core data";
 			sourceTree = "<group>";
@@ -140,7 +140,7 @@
 			files = (
 				045763232446EDED0005FF0E /* ViewController.swift in Sources */,
 				045763212446EDED0005FF0E /* AppDelegate.swift in Sources */,
-				045763292446EDED0005FF0E /* core_data.xcdatamodeld in Sources */,
+				045763292446EDED0005FF0E /* Todo.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,13 +340,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		045763272446EDED0005FF0E /* core_data.xcdatamodeld */ = {
+		045763272446EDED0005FF0E /* Todo.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				045763282446EDED0005FF0E /* core_data.xcdatamodel */,
 			);
 			currentVersion = 045763282446EDED0005FF0E /* core_data.xcdatamodel */;
-			path = core_data.xcdatamodeld;
+			path = Todo.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
